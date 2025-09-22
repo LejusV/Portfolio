@@ -1,0 +1,8 @@
+[
+  { "file": "character.png", "descKey": "desc_project4_1", "type": "img" },
+  { "file": "gameplay.png", "descKey": "desc_project4_2", "type": "img" },
+  { "file": "items.png", "descKey": "desc_project4_3", "type": "img" },
+  { "file": "night.png", "descKey": "desc_project4_4", "type": "img" },
+  { "file": "scene_fountain.png", "descKey": "desc_project4_5", "type": "img" },
+  { "file": "scene_pokemon.png", "descKey": "desc_project4_6", "type": "img" }
+]

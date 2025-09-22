@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="index.html">Resume</a></li>
+        <li><a href="../portfolio/index.html">Portfolio</a></li>
+      </ul>
+      <button id="lang-toggle">FR</button>
+    </nav>
+  </header>
+  <main>
+    <section class="cv cv-modern">
+      <div class="cv-header">
+        <div class="cv-title-block">
+          <h1 class="cv-name" data-i18n="cv_name"></h1>
+          <img class="cv-photo" data-i18n="cv_photo" alt="Photo Jules Vandeputte" src="../assets/img/photo.jpg">
+          <h2 class="cv-role" data-i18n="cv_role"></h2>
+        </div>
+        <div class="cv-contact">
+          <ul>
+            <li><span class="cv-icon">📞</span> <span data-i18n="cv_phone">+33 6 32 85 17 81</span></li>
+            <li><span class="cv-icon">✉️</span> <span data-i18n="cv_email">jul.vandeputte@gmail.com</span></li>
+            <li><span class="cv-icon">💼</span> <span data-i18n="cv_linkedin">Jules Vandeputte</span></li>
+            <li><span class="cv-icon">🏠</span> <span data-i18n="cv_address">80440 Cottenchy - FRANCE</span></li>
+            <li><span class="cv-icon">🌐</span> <a href="https://github.com/LejusV" target="_blank">www.github.com/LejusV</a></li>
+          </ul>
+        </div>
+        <div class="cv-export">
+          <button id="cv-export-pdf" class="cv-export-btn">PDF</button>
+          <button id="cv-export-png" class="cv-export-btn">PNG</button>
+        </div>
+      </div>
+      <div class="cv-main-grid">
+        <div class="cv-left">
+          <section class="cv-section cv-profile">
+            <h3 class="cv-section-title" data-i18n="cv_profile_title"></h3>
+            <p data-i18n="cv_profile"></p>
+          </section>
+          <section class="cv-section cv-languages">
+            <h3 class="cv-section-title" data-i18n="cv_languages_title"></h3>
+            <ul>
+              <li data-i18n="cv_languages_main"></li>
+              <li data-i18n="cv_languages_other"></li>
+            </ul>
+          </section>
+          <section class="cv-section cv-skills">
+            <h3 class="cv-section-title" data-i18n="cv_skills_title"></h3>
+            <div class="cv-skills-block">
+              <div>
+                <strong data-i18n="cv_skills_hard"></strong>
+                <ul>
+                  <li data-i18n="cv_skills_coding"></li>
+                  <ul>
+                    <li data-i18n="cv_skills_c"></li>
+                    <li data-i18n="cv_skills_java"></li>
+                    <li data-i18n="cv_skills_csharp"></li>
+                    <li data-i18n="cv_skills_python"></li>
+                  </ul>
+                  <li data-i18n="cv_skills_rendering"></li>
+                  <li data-i18n="cv_skills_unix"></li>
+                  <li data-i18n="cv_skills_sql"></li>
+                  <li data-i18n="cv_skills_gamedev"></li>
+                </ul>
+              </div>
+              <div>
+                <strong data-i18n="cv_skills_soft"></strong>
+                <ul>
+                  <li data-i18n="cv_skills_soft1"></li>
+                  <li data-i18n="cv_skills_soft2"></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="cv-right">
+          <section class="cv-section cv-experience">
+            <h3 class="cv-section-title" data-i18n="cv_exp_title"></h3>
+            <div class="cv-job-block">
+              <div class="cv-job">
+                <div class="cv-job-header">
+                  <span class="cv-job-title" data-i18n="cv_exp_job1_title"></span>
+                  <span class="cv-job-company">CGI</span>
+                </div>
+                <div class="cv-job-dates" data-i18n="cv_exp_job1_dates"></div>
+                <div class="cv-job-desc" data-i18n="cv_exp_job1_desc"></div>
+              </div>
+              <div class="cv-job">
+                <div class="cv-job-header">
+                  <span class="cv-job-title" data-i18n="cv_exp_job2_title"></span>
+                  <span class="cv-job-company">Ewill</span>
+                </div>
+                <div class="cv-job-dates" data-i18n="cv_exp_job2_dates"></div>
+                <div class="cv-job-desc" data-i18n="cv_exp_job2_desc"></div>
+              </div>
+            </div>
+          </section>
+          <section class="cv-section cv-education">
+            <h3 class="cv-section-title" data-i18n="cv_edu_title"></h3>
+            <div class="cv-edu-block">
+              <div class="cv-edu-item">
+                <div class="cv-edu-title"><span data-i18n="cv_edu1_title"></span> <span class="cv-edu-school" style="margin: 0;">TUG - Graz University of Technology</span></div>
+                <div class="cv-edu-dates" data-i18n="cv_edu1_dates"></div>
+                <ul>
+                  <li data-i18n="cv_edu1_1"></li>
+                  <li data-i18n="cv_edu1_2"></li>
+                  <li data-i18n="cv_edu1_3"></li>
+                </ul>
+              </div>
+              <div class="cv-edu-item">
+                <div class="cv-edu-title"><span data-i18n="cv_edu2_title"></span> <span class="cv-edu-school">Grenoble INP - ENSIMAG</span></div>
+                <div class="cv-edu-dates" data-i18n="cv_edu2_dates"></div>
+                <ul>
+                  <li data-i18n="cv_edu2_1"></li>
+                  <li data-i18n="cv_edu2_2"></li>
+                  <li data-i18n="cv_edu2_3"></li>
+                  <li data-i18n="cv_edu2_4"></li>
+                  <li data-i18n="cv_edu2_5"></li>
+                </ul>
+              </div>
+              <div class="cv-edu-item">
+                <div class="cv-edu-title"><span data-i18n="cv_edu3_title"></span> <span class="cv-edu-school">University of Amiens - UPJV</span></div>
+                <div class="cv-edu-dates" data-i18n="cv_edu3_dates"></div>
+                <ul>
+                  <li data-i18n="cv_edu3_1"></li>
+                  <li data-i18n="cv_edu3_2"></li>
+                </ul>
+              </div>
+              <div class="cv-edu-item">
+                <div class="cv-edu-title"><span data-i18n="cv_edu4_title"></span> <span class="cv-edu-school">Louis Thuillier High school - Amiens</span></div>
+                <div class="cv-edu-dates" data-i18n="cv_edu4_dates"></div>
+                <ul>
+                  <li data-i18n="cv_edu4_1"></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+    <script>
+    // Boutons d'export PDF/PNG
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('cv-export-pdf').onclick = function() {
+        window.open('../assets/cv/CV International 2025.pdf', '_blank');
+      };
+      document.getElementById('cv-export-png').onclick = function() {
+        window.open('../assets/cv/CV International 2025.png', '_blank');
+      };
+    });
+    </script>
+    <script src="../assets/i18n.js"></script>
+  </main>
+  <footer>
+  <p>&copy; 2025 Jules Vandeputte. All rights reserved.</p>
+  </footer>
+</body>
+</html>

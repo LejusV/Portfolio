@@ -1,0 +1,34 @@
+[
+  {
+    "id": "project-1",
+    "category": "cgr",
+    "titleKey": "project1",
+    "descKey": "project1_desc",
+    "mediaPath": "../assets/img/projects/1",
+    "mediaJson": "media.json"
+  },
+  {
+    "id": "project-2",
+    "category": "cgr",
+    "titleKey": "project2",
+    "descKey": "project2_desc",
+    "mediaPath": "../assets/img/projects/2",
+    "mediaJson": "media.json"
+  },
+  {
+    "id": "project-3",
+    "category": "rtr",
+    "titleKey": "project3",
+    "descKey": "project3_desc",
+    "mediaPath": "../assets/img/projects/3",
+    "mediaJson": "media.json"
+  },
+  {
+    "id": "project-4",
+    "category": "gamedev",
+    "titleKey": "project4",
+    "descKey": "project4_desc",
+    "mediaPath": "../assets/img/projects/4",
+    "mediaJson": "media.json"
+  }
+]

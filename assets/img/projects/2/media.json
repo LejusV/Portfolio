@@ -1,0 +1,7 @@
+[
+  { "file": "scene1.png", "descKey": "desc_project2_1", "type": "img" },
+  { "file": "scene2.png", "descKey": "desc_project2_2", "type": "img" },
+  { "file": "scene3.png", "descKey": "desc_project2_3", "type": "img" },
+  { "file": "scene4.png", "descKey": "desc_project2_4", "type": "img" },
+  { "file": "scene5.png", "descKey": "desc_project2_5", "type": "img" }
+]
