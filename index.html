@@ -9,24 +9,43 @@
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about/index.html">About</a></li>
-        <li><a href="cv/index.html">Resume</a></li>
-        <li><a href="portfolio/index.html">Portfolio</a></li>
+      <button id="lang-toggle" aria-label="Change language">EN</button>
+      <button class="hamburger" id="hamburger-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="main-nav">
+        <li><a href="/index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="/portfolio/index.html" data-i18n="nav.portfolio">Portfolio</a></li>
+        <li><a href="/cv/index.html" data-i18n="nav.cv">CV</a></li>
+        <li><a href="/about/index.html" data-i18n="nav.about">À propos</a></li>
       </ul>
-      <button id="lang-toggle">FR</button>
     </nav>
   </header>
   <main>
-    <section class="hero">
-      <h1>Welcome to my 3DCGR Portfolio</h1>
-      <p>Discover my creations and my professional journey in web and 3D.</p>
+    <section class="hero-home">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1 data-i18n="home_hero_title"></h1>
+        <h2 data-i18n="home_hero_sub"></h2>
+        <p class="hero-desc" data-i18n="home_hero_desc"></p>
+        <div class="hero-btns">
+          <a href="portfolio/index.html" class="hero-btn" data-i18n="home_btn_portfolio"></a>
+          <a href="cv/index.html" class="hero-btn" data-i18n="home_btn_cv"></a>
+          <a href="about/index.html" class="hero-btn" data-i18n="home_btn_about"></a>
+        </div>
+      </div>
     </section>
-    <script src="../assets/i18n.js"></script>
+    <section class="home-intro">
+      <h3 data-i18n="home_intro_title"></h3>
+      <p data-i18n="home_intro_text"></p>
+    </section>
   </main>
   <footer>
   <p>&copy; 2025 Jules Vandeputte. All rights reserved.</p>
   </footer>
+  <script src="/assets/i18n.js"></script>
+  <script src="/assets/nav.js"></script>
 </body>
 </html>

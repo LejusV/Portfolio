@@ -5,7 +5,8 @@
     "titleKey": "project1",
     "descKey": "project1_desc",
     "mediaPath": "../assets/img/projects/1",
-    "mediaJson": "media.json"
+    "mediaJson": "media.json",
+    "github": "https://github.com/LejusV/RenderAscent"
   },
   {
     "id": "project-2",
@@ -13,7 +14,8 @@
     "titleKey": "project2",
     "descKey": "project2_desc",
     "mediaPath": "../assets/img/projects/2",
-    "mediaJson": "media.json"
+    "mediaJson": "media.json",
+    "github": "https://github.com/LejusV/CGR1"
   },
   {
     "id": "project-3",
@@ -21,7 +23,8 @@
     "titleKey": "project3",
     "descKey": "project3_desc",
     "mediaPath": "../assets/img/projects/3",
-    "mediaJson": "media.json"
+    "mediaJson": "media.json",
+    "github": "https://github.com/LejusV/CGR2"
   },
   {
     "id": "project-4",

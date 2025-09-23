@@ -9,21 +9,29 @@
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="index.html">About</a></li>
-        <li><a href="../cv/index.html">Resume</a></li>
-        <li><a href="../portfolio/index.html">Portfolio</a></li>
+      <button id="lang-toggle" aria-label="Change language">EN</button>
+      <button class="hamburger" id="hamburger-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="main-nav">
+        <li><a href="/index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="/portfolio/index.html" data-i18n="nav.portfolio">Portfolio</a></li>
+        <li><a href="/cv/index.html" data-i18n="nav.cv">CV</a></li>
+        <li><a href="/about/index.html" data-i18n="nav.about">À propos</a></li>
       </ul>
-      <button id="lang-toggle">FR</button>
     </nav>
   </header>
   <main>
     <section class="about">
       <h1>About Me</h1>
-      <p>Born in February 2002, I will graduate in September with a master's degree in computer science from ENSIMAG. Although I love computer science, I am always looking for some creativity in my daily work. That is why I chose to learn Computer Graphics in TUGraz in an amazing ERASMUS+ program.</p>
+      <p data-i18n="about_me"></p>
+      <hr/>
+      <p data-i18n="contact"></p>
     </section>
     <script src="../assets/i18n.js"></script>
+    <script src="../assets/nav.js"></script>
   </main>
   <footer>
   <p>&copy; 2025 Jules Vandeputte. All rights reserved.</p>

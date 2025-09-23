@@ -41,6 +41,24 @@ async function loadProjects() {
     desc.textContent = translations[currentLang][project.descKey] || project.descKey;
     container.appendChild(desc);
 
+    // Github link
+    if (project.github) {
+      const github = document.createElement('div');
+      github.className = 'carousel-github-link';
+      const githubText = document.createElement('span');
+      githubText.textContent = translations[currentLang]["code_link"];
+      githubText.setAttribute('data-i18n', 'code_link');
+      const githubLink = document.createElement('a');
+      githubLink.href = project.github;
+      githubLink.target = '_blank';
+      githubLink.rel = 'noopener noreferrer';
+      githubLink.textContent = project.github;
+      githubLink.className = 'source-link';
+      github.appendChild(githubText);
+      github.appendChild(githubLink);
+      container.appendChild(github);
+    }
+
     // Boutons et structure carousel
     container.innerHTML += `
       <button class="carousel-prev" aria-label="Previous">&#10094;</button>

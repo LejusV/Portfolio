@@ -7,6 +7,16 @@ function updateAllCarouselDescriptions() {
 // Simple i18n for EN/FR
 const translations = {
   en: {
+    home_hero_title: "Welcome to my Portfolio!",
+    home_hero_sub: "French Computer Engineer & 3D Graphics Enthusiast",
+    home_hero_desc: "Explore my projects in computer graphics, real-time rendering, and game development. Discover my skills, my education, and my professional journey.",
+    home_btn_portfolio: "See my Portfolio",
+    home_btn_cv: "View my Resume",
+    home_btn_about: "About me",
+    home_intro_title: "Who am I?",
+    home_intro_text: "I'm Jules Vandeputte, a passionate computer engineer specialized in 3D graphics, rendering, and game development. I love blending technical expertise with creativity to build beautiful and efficient digital experiences. On this site, you'll find my best projects, my background, and my vision for the future. Feel free to browse, download my CV, or contact me!",
+    about_me: "Hello, I'm Jules (aka Lejus), a French computer engineer passionate about graphics programming and game development. I am freshly graduated from a computer science master's degree at ENSIMAG. Although I love computer science, I am always looking for some creativity in my daily work. That is why I chose to learn Computer Graphics after discovering it at TUGraz in an amazing ERASMUS+ program.",
+    contact: "Contact : ✉️ jul.vandeputte@gmail.com, 💼 Jules Vandeputte (LinkedIn)",
     cv_name: "Jules Vandeputte",
     cv_role: "French Computer Engineer",
     cv_email: "jul.vandeputte@gmail.com",
@@ -38,12 +48,12 @@ const translations = {
     cv_exp_job2_dates: "June 2022 - August 2022",
     cv_exp_job2_desc: "Web development: additional modules for the TYPO3 CMS in a project context using some PHP, SQL, CSS and JavaScript",
     cv_edu_title: "Education",
-    cv_edu1_title: "Master’s Winter Semester in Computer Graphics & Game Dev",
+    cv_edu1_title: "Master's Winter Semester in Computer Graphics & Game Dev",
     cv_edu1_dates: "Sep. 2024 - Feb. 2025",
     cv_edu1_1: "3D Computer Graphics & Realism",
     cv_edu1_2: "Computer-Aided Geometric Design",
     cv_edu1_3: "Game Design & Development",
-    cv_edu2_title: "Engineering master’s degree in Computer Science and Applied Mathematics",
+    cv_edu2_title: "Engineering master's degree in Computer Science and Applied Mathematics",
     cv_edu2_dates: "Sep. 2022 - Sep. 2025",
     cv_edu2_1: "Higher level Applied Mathematics",
     cv_edu2_2: "Simple Unix kernel project",
@@ -93,6 +103,16 @@ const translations = {
     credits: '© 2025 Jules "Lejus" Vandeputte. All rights reserved.'
   },
   fr: {
+    home_hero_title: "Bienvenue sur mon Portfolio !",
+    home_hero_sub: "Ingénieur informatique français passionné de 3D",
+    home_hero_desc: "Découvrez mes projets en infographie, rendu temps réel et développement de jeux. Parcourez mes compétences, ma formation et mon parcours professionnel.",
+    home_btn_portfolio: "Voir mon Portfolio",
+    home_btn_cv: "Voir mon CV",
+    home_btn_about: "À propos",
+    home_intro_title: "Qui suis-je ?",
+    home_intro_text: "Je suis Jules Vandeputte, ingénieur informatique passionné de graphisme 3D, de rendu et de développement de jeux. J'aime allier expertise technique et créativité pour concevoir des expériences numériques belles et efficaces. Sur ce site, vous trouverez mes meilleurs projets, mon parcours et ma vision. Bonne visite, téléchargez mon CV ou contactez-moi !",
+    about_me: "Hello, je m'appelle Jules (alias Lejus), et je suis un ingénieur informaticien français passionné par la programmation graphique et le développement de jeux vidéo. Je suis fraîchement diplômé d'un master en informatique à l'ENSIMAG. Bien que passionné d'informatique, je recherche toujours de la créativité dans mon quotidien. C'est pourquoi j'ai choisi d'étudier l'infographie après l'avoir découverte à TUGraz dans le cadre d'un programme ERASMUS+ exceptionnel.",
+    contact: "Contact : ✉️ jul.vandeputte@gmail.com, 💼 Jules Vandeputte (LinkedIn)",
     cv_name: "Jules Vandeputte",
     cv_role: "Ingénieur informatique français",
     cv_email: "jul.vandeputte@gmail.com",
@@ -146,9 +166,9 @@ const translations = {
     cgr: "Graphisme & Réalisme 3D",
     rtr: "Rendu en Temps Réel",
     gamedev: "Développement & Design de Jeux Vidéo",
-    nav_home: "Accueil",
-    nav_about: "Présentation",
-    nav_resume: "CV",
+    nav_home: "Home",
+    nav_about: "About",
+    nav_resume: "Resume",
     nav_portfolio: "Portfolio",
     code_link: "Le code du projet est disponible sur GitHub à ",
     portfolio_title: "Mon Portfolio",
@@ -169,7 +189,7 @@ const translations = {
     desc_project3_1: "Scène comportant une seule lumière, rendue SANS échantillonnage explicite de la source lumineuse (aussi appelée estimation du prochain événement NEE). On ne voit aucun biais ou erreur, au prix d'un certain bruit.",
     desc_project3_2: "Scène comportant une seule lumière, rendue AVEC échantillonnage explicite de la source lumineuse (aussi appelée estimation du prochain événement NEE). On peut observer une réduction significative du bruit, notamment dans les zones d'ombre, au prix de quelques erreurs par-ci par-là. Cela est généralement préféré car les erreurs peuvent être corrigées par post-traitement.",
     desc_project3_3: "Scène avec plusieurs sources lumineuses, rendue avec l'estimation du prochain événement (NEE). On peut clairement voir les lumières colorées et à pleine intensité.",
-    desc_project3_4: "Scène avec plusieurs sources lumineuses, rendue avec l'estimation du prochain événement (NEE). On peut clairement voir une sorte de brouillard, et la lumière est légèrement estompée. Cela est dû à l'absorption et la diffusion de \"l'air\" environnant. Cela simule un environnement poussiéreux ou brumeux.",
+  desc_project3_4: "Scène avec plusieurs sources lumineuses, rendue avec l'estimation du prochain événement (NEE). On peut clairement voir une sorte de brouillard, et la lumière est légèrement estompée. Cela est dû à l'absorption et la diffusion de l'air environnant. Cela simule un environnement poussiéreux ou brumeux.",
     desc_project4_1: "FR Description du Projet 4 - 1",
     desc_project4_2: "FR Description du Projet 4 - 2",
     desc_project4_3: "FR Description du Projet 4 - 3",
@@ -187,7 +207,7 @@ window.currentLang = currentLang;
 function setLang(lang) {
   currentLang = lang;
   window.currentLang = lang;
-    document.querySelectorAll("[data-i18n]").forEach((el) => {
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute('data-i18n');
     if (translations[lang][key]) {
       el.textContent = translations[lang][key];
@@ -196,6 +216,18 @@ function setLang(lang) {
   // Change le bouton
   const btn = document.getElementById('lang-toggle');
   if (btn) btn.textContent = lang === 'en' ? 'FR' : 'EN';
+  // Met à jour la navigation (liens principaux)
+  const navMap = [
+    { selector: 'a[data-i18n="nav.home"]', key: 'nav_home' },
+    { selector: 'a[data-i18n="nav.portfolio"]', key: 'nav_portfolio' },
+    { selector: 'a[data-i18n="nav.cv"]', key: 'nav_resume' },
+    { selector: 'a[data-i18n="nav.about"]', key: 'nav_about' }
+  ];
+  navMap.forEach(({selector, key}) => {
+    document.querySelectorAll(selector).forEach(el => {
+      if (translations[lang][key]) el.textContent = translations[lang][key];
+    });
+  });
   // Change le titre principal
   const mainTitle = document.querySelector('.portfolio h1[data-i18n]');
   if (mainTitle) mainTitle.textContent = translations[lang]['portfolio_title'];
@@ -204,7 +236,7 @@ function setLang(lang) {
     const key = h2.getAttribute('data-i18n');
     if (translations[lang][key]) h2.textContent = translations[lang][key];
   });
-    // Met à jour la description du slide actif de chaque carousel
+  // Met à jour la description du slide actif de chaque carousel
   updateAllCarouselDescriptions();
 }
 
