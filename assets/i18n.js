@@ -9,10 +9,8 @@ const translations = {
   en: {
     cv_name: "Jules Vandeputte",
     cv_role: "French Computer Engineer",
-    cv_phone: "+33 6 32 85 17 81",
     cv_email: "jul.vandeputte@gmail.com",
     cv_linkedin: "Jules Vandeputte",
-    cv_address: "80440 Cottenchy - FRANCE",
     cv_profile_title: "Profile",
     cv_profile: "Born in February 2002, I will graduate in September with a master's degree in computer science from ENSIMAG. Although I love computer science, I am always looking for some creativity in my daily work. That is why I chose to learn Computer Graphics in TUGraz in an amazing ERASMUS+ program.",
     cv_languages_title: "Languages",
@@ -97,10 +95,8 @@ const translations = {
   fr: {
     cv_name: "Jules Vandeputte",
     cv_role: "Ingénieur informatique français",
-    cv_phone: "+33 6 32 85 17 81",
     cv_email: "jul.vandeputte@gmail.com",
     cv_linkedin: "Jules Vandeputte",
-    cv_address: "80440 Cottenchy - FRANCE",
     cv_profile_title: "Profil",
     cv_profile: "Né en février 2002, je serai diplômé en septembre d'un master en informatique à l'ENSIMAG. Bien que passionné d'informatique, je recherche toujours de la créativité dans mon quotidien. C'est pourquoi j'ai choisi d'étudier l'infographie à TUGraz dans le cadre d'un programme ERASMUS+ exceptionnel.",
     cv_languages_title: "Langues",
