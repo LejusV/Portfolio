@@ -458,4 +458,10 @@ main {
   .cv-export {
     margin-left: 0;
   }
+  .carousel-container .carousel-project-desc {
+    font-size: 1rem;
+  }
+  .carousel-desc {
+    font-size: 0.8rem;
+  }
 }
