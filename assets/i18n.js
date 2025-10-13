@@ -166,9 +166,9 @@ const translations = {
     cgr: "Graphisme & Réalisme 3D",
     rtr: "Rendu en Temps Réel",
     gamedev: "Développement & Design de Jeux Vidéo",
-    nav_home: "Home",
-    nav_about: "About",
-    nav_resume: "Resume",
+    nav_home: "Accueil",
+    nav_about: "À propos",
+    nav_resume: "CV",
     nav_portfolio: "Portfolio",
     code_link: "Le code du projet est disponible sur GitHub à ",
     portfolio_title: "Mon Portfolio",
@@ -216,18 +216,6 @@ function setLang(lang) {
   // Change le bouton
   const btn = document.getElementById('lang-toggle');
   if (btn) btn.textContent = lang === 'en' ? 'FR' : 'EN';
-  // Met à jour la navigation (liens principaux)
-  const navMap = [
-    { selector: 'a[data-i18n="nav.home"]', key: 'nav_home' },
-    { selector: 'a[data-i18n="nav.portfolio"]', key: 'nav_portfolio' },
-    { selector: 'a[data-i18n="nav.cv"]', key: 'nav_resume' },
-    { selector: 'a[data-i18n="nav.about"]', key: 'nav_about' }
-  ];
-  navMap.forEach(({selector, key}) => {
-    document.querySelectorAll(selector).forEach(el => {
-      if (translations[lang][key]) el.textContent = translations[lang][key];
-    });
-  });
   // Change le titre principal
   const mainTitle = document.querySelector('.portfolio h1[data-i18n]');
   if (mainTitle) mainTitle.textContent = translations[lang]['portfolio_title'];
