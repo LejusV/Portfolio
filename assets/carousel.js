@@ -103,7 +103,6 @@ async function loadCarouselMedia(carouselId, projectPath) {
             video.src = `${projectPath}/${media.file}`;
             video.loop = true;
             video.muted = true;
-            video.playsInline = true;
             video.setAttribute("poster", `${projectPath}/${media.poster || ""}`);
             slide.appendChild(video);
         }
@@ -147,7 +146,13 @@ function initSingleCarousel(container) {
           if (video.src.includes('portfolio_opengl.mp4')) {
             video.loop = true;
             video.muted = true;
+            video.controls = false;
             video.play().catch(()=>{});
+          } else if (video.src.includes('nebula_nomad_gameplay.mp4')) {
+            video.loop = false;
+            video.muted = false;
+            video.controls = true;
+            video.pause();
           }
         }
       } else if (i === (index - 1 + totalSlides) % totalSlides) {
@@ -213,6 +218,9 @@ function initSingleCarousel(container) {
     updateCoverflow(0);
     startAutoScroll();
   }
+  for (let video of document.getElementsByTagName("video")) {
+    video.addEventListener('play', (e) => { stopAutoScroll(); });
+  };
 }
 
 // Exemple d'appel pour chaque projet :

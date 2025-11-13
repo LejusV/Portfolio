@@ -33,5 +33,14 @@
     "descKey": "project4_desc",
     "mediaPath": "../assets/img/projects/4",
     "mediaJson": "media.json"
+  },
+  {
+    "id": "project-5",
+    "category": "gamedev",
+    "titleKey": "project5",
+    "descKey": "project5_desc",
+    "mediaPath": "../assets/img/projects/5",
+    "mediaJson": "media.json",
+    "github": "https://github.com/LejusV/Nebula-Nomads"
   }
 ]
