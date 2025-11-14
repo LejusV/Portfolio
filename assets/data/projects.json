@@ -1,7 +1,7 @@
 [
   {
     "id": "project-1",
-    "category": "cgr",
+    "category": "rtr",
     "titleKey": "project1",
     "descKey": "project1_desc",
     "mediaPath": "../assets/img/projects/1",
@@ -19,7 +19,7 @@
   },
   {
     "id": "project-3",
-    "category": "rtr",
+    "category": "cgr",
     "titleKey": "project3",
     "descKey": "project3_desc",
     "mediaPath": "../assets/img/projects/3",
