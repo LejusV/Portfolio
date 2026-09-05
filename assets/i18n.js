@@ -70,6 +70,7 @@ const translations = {
     cgr: "3D Computer Graphics & Realism",
     rtr: "Real-Time Rendering",
     gamedev: "Game Development & Design",
+    modeling_3d: "3D Modeling",
     nav_home: "Home",
     nav_about: "About",
     nav_resume: "Resume",
@@ -86,6 +87,8 @@ const translations = {
     project4_desc: "This is a 2D game developed in Unity using a custom Pokemon-like assets framework. The game features exploration, battles, and a day-light cycle, all built with C# scripts and Unity's game development tools.",
     project5: "Nebula Nomads - Unity 2D Game",
     project5_desc: "Fully group-developed 2D Unity game (free assets found on itch.io and modified), where you explore space with your spaceship, collect resources while trying to avoid obstacles and defeat enemies.",
+    project6: "UP 4718 Locomotive in Blender",
+    project6_desc: "Hand-made model in Blender of the Union Pacific 4718 locomotive. This project was initially made to learn Blender.",
     desc_project1_1: '360-degrees view of a 3D scene rendered with OpenGL. We can observe how the different materials (mainly wood and metal) react to various light sources, including directional, point, and spotlight types. The blue specular highlights ont the metal parts show a "Moon" light source with blue specular color. The red-ish light from the cube shows a nice diffuse and specular reflection on the wood.',
     desc_project2_1: "Path-traced image of the first 3DCGR scene rendered that showcases the handling of triangles (Möller-Trumbore ray-triangle intersection algorithm) and sphere primitives. It allows mesh loading from OFF files. It also demonstrates basic lighting with a single light source. Here the helmet reprensents an ideal diffuse reflection, a sphere is an ideal specular reflection, and the other sphere is an ideal dielectric refraction. The model loader also creates a bounding sphere for faster intersection tests.",
     desc_project2_2: "Second path-traced image of another scene, without depth of field nor Bokehs. Here we are still using a pin-hole model for the camera, so there is no depth of field effect.",
@@ -107,6 +110,11 @@ const translations = {
     desc_project5_3: "In-game screenshot showing the space scene with an icy planet.",
     desc_project5_4: "In-game screenshot showing the mining scene on the magma planet. There are obstacles to avoid and resources to collect.",
     desc_project5_5: "In-game screenshot showing the mining scene on the icy planet with different obstacles and resources.",
+    desc_project6_1: "In-game screenshot showing the model created from scratch in Blender, inspired by the Union Pacific 4718 locomotive.",
+    desc_project6_2: "In-game screenshot showing the model created colored to clearly show each face.",
+    desc_project6_3: "In-game screenshot showing the model in edit mode, contouring every face of the mesh.",
+    desc_project6_4: "In-game screenshot showing the model in edit mode, showing all the vertices of the mesh.",
+    desc_project6_5: "In-game zoomed-in screenshot showing the side security rail precision.",
     credits: '© 2025 Jules "Lejus" Vandeputte. All rights reserved.'
   },
   fr: {
@@ -173,6 +181,7 @@ const translations = {
     cgr: "Graphisme & Réalisme 3D",
     rtr: "Rendu en Temps Réel",
     gamedev: "Développement & Design de Jeux Vidéo",
+    modeling_3d: "Modélisation 3D",
     nav_home: "Accueil",
     nav_about: "À propos",
     nav_resume: "CV",
@@ -188,6 +197,8 @@ const translations = {
     project4: "Jeu 2D Unity utilisant un Framework Pokémon",
     project4_desc: "Ce projet est un jeu 2D développé dans Unity en utilisant un framework d'assets personnalisé inspiré de Pokémon. Le jeu propose de l'exploration, des combats, et un cycle jour-nuit, le tout construit avec des scripts C# et les outils de développement de jeux d'Unity.",
     project5: "Nebula Nomads - Unity 2D Game",
+    project6: "Locomotive UP 4718 dans Blender",
+    project6_desc: "Modèle fait-main dans Blender de la locomotive Union Pacific 4718. Ce projet a été initiallement pensé pour apprendre Blender.",
     project5_desc: "Jeu 2D Unity entièrement développé en groupe (assets libres trouvés sur itch.io et modifiés), où l'on explore l'espace avec son vaisseau spatial, collecte des ressources tout en essayant d'éviter les obstacles et de vaincre des ennemis.",
     desc_project1_1: 'Vue à 360 degrés d\'une scène 3D rendue avec OpenGL. On peut observer comment les différents matériaux (principalement le bois et le métal) réagissent aux diverses sources lumineuses, incluant des types directionnels, ponctuels et projecteurs. Les reflets spéculaires bleus sur les parties métalliques montrent une source lumineuse type "Lune" avec une couleur spéculaire bleue. La lumière rougeâtre provenant du cube montre un joli reflet diffus et spéculaire sur le bois.',
     desc_project2_1: "Première scène 3DCGR rendue à l'aide du path-tracing qui met en avant la gestion de primitives triangles (algorithme Möller-Trumbore d'intersection Triangle-Droite) et sphères, ainsi que le chargement de modèles à partir de fichiers OFF. Elle démontre également l'éclairage de base avec une source lumineuse unique. Ici, le casque représente une réflexion diffuse idéale, une sphère est une réflexion spéculaire idéale, et l'autre sphère est une réfraction diélectrique idéale. L'importation de modèles crée aussi une sphère englobante pour accélérer les tests d'intersection.",
@@ -210,6 +221,11 @@ const translations = {
     desc_project5_3: "Capture d'écran en jeu montrant la scène spatiale avec une planète glacée.",
     desc_project5_4: "Capture d'écran en jeu montrant la scène de minage sur la planète de magma. Il y a des obstacles à éviter et des ressources à collecter.",
     desc_project5_5: "Capture d'écran en jeu montrant la scène de minage sur la planète glacée avec différents obstacles et ressources.",
+    desc_project6_1: "Capture d'écran montrant le modèle créé de zéro avec Blender, en l'occurence une locomotive Union Pacific 4718.",
+    desc_project6_2: "Capture d'écran montrant le modèle créé avec des couleurs mettant en valeur chaque face.",
+    desc_project6_3: "Capture d'écran montrant le modèle en mode édition, détourant chaque face du maillage.",
+    desc_project6_4: "Capture d'écran montrant le modèle en mode édition, montrant chaque sommet du maillage.",
+    desc_project6_5: "Capture d'écran zoommée montrant la précision de la barrière de sécurité se trouvant sur le côté de la locomotive.",
     credits: '© 2025 Jules "Lejus" Vandeputte. Tous droits réservés.'
   }
 };

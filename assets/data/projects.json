@@ -42,5 +42,13 @@
     "mediaPath": "../assets/img/projects/5",
     "mediaJson": "media.json",
     "github": "https://github.com/LejusV/Nebula-Nomads"
+  },
+  {
+    "id": "project-6",
+    "category": "modeling_3d",
+    "titleKey": "project6",
+    "descKey": "project6_desc",
+    "mediaPath": "../assets/img/projects/6",
+    "mediaJson": "media.json"
   }
 ]
