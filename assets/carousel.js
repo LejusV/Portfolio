@@ -115,6 +115,7 @@ async function loadCarouselMedia(carouselId, projectPath) {
 
   // Réinitialise le carousel après chargement dynamique
   reinitCarousel(carouselId);
+  startSimul(); // Démarre la simulation WebGL si nécessaire
 }
 
 // Réinitialise la logique du carousel pour un conteneur donné (après chargement dynamique)
@@ -147,7 +148,7 @@ function initSingleCarousel(container) {
         // Si la slide contient une vidéo à lancer automatiquement
         const video = slide.querySelector('video');
         if (video) {
-          if (video.src.includes('portfolio_opengl.mp4')) {
+          if (video.src.includes('portfolio_opengl.mp4') || video.src.includes('age_of_war_dl.mp4')) {
             video.loop = true;
             video.muted = true;
             video.controls = false;
