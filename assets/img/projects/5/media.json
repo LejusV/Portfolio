@@ -1,7 +1,8 @@
 [
-  { "file": "nebula_nomad_gameplay.mp4", "descKey": "desc_project5_1", "type": "video" },
-  { "file": "space1.png", "descKey": "desc_project5_2", "type": "img" },
-  { "file": "space2.png", "descKey": "desc_project5_3", "type": "img" },
-  { "file": "mining1.png", "descKey": "desc_project5_4", "type": "img" },
-  { "file": "mining2.png", "descKey": "desc_project5_5", "type": "img" }
+  { "file": "character.png", "descKey": "desc_project5_1", "type": "img" },
+  { "file": "gameplay.png", "descKey": "desc_project5_2", "type": "img" },
+  { "file": "items.png", "descKey": "desc_project5_3", "type": "img" },
+  { "file": "night.png", "descKey": "desc_project5_4", "type": "img" },
+  { "file": "scene_fountain.png", "descKey": "desc_project5_5", "type": "img" },
+  { "file": "scene_pokemon.png", "descKey": "desc_project5_6", "type": "img" }
 ]

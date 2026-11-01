@@ -28,7 +28,7 @@
   },
   {
     "id": "project-4",
-    "category": "gamedev",
+    "category": "dl",
     "titleKey": "project4",
     "descKey": "project4_desc",
     "mediaPath": "../assets/img/projects/4",
@@ -40,15 +40,31 @@
     "titleKey": "project5",
     "descKey": "project5_desc",
     "mediaPath": "../assets/img/projects/5",
+    "mediaJson": "media.json"
+  },
+  {
+    "id": "project-6",
+    "category": "gamedev",
+    "titleKey": "project6",
+    "descKey": "project6_desc",
+    "mediaPath": "../assets/img/projects/6",
     "mediaJson": "media.json",
     "github": "https://github.com/LejusV/Nebula-Nomads"
   },
   {
-    "id": "project-6",
+    "id": "project-7",
     "category": "modeling_3d",
-    "titleKey": "project6",
-    "descKey": "project6_desc",
-    "mediaPath": "../assets/img/projects/6",
+    "titleKey": "project7",
+    "descKey": "project7_desc",
+    "mediaPath": "../assets/img/projects/7",
+    "mediaJson": "media.json"
+  },
+  {
+    "id": "project-8",
+    "category": "anim",
+    "titleKey": "project8",
+    "descKey": "project8_desc",
+    "mediaPath": "../assets/img/projects/8",
     "mediaJson": "media.json"
   }
 ]

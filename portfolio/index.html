@@ -7,7 +7,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
-<body>
+<body onload="startSimul();">
     <header>
         <nav>
             <button id="lang-toggle" aria-label="Change language">EN</button>
@@ -28,9 +28,17 @@
         <section class="portfolio" id="portfolio-section">
             <h1 data-i18n="portfolio_title"></h1>
         </section>
-        <script src="../assets/carousel.js"></script>
-        <script src="../assets/i18n.js"></script>
-        <script src="../assets/nav.js"></script>
+        <script type="text/javascript" src="../assets/carousel.js"></script>
+        <script type="text/javascript" src="../assets/i18n.js"></script>
+        <script type="text/javascript" src="../assets/nav.js"></script>
+        <script type="text/javascript" src="../lib/webgl-utils.js"></script>
+        <script type="text/javascript" src="../lib/glMatrix-0.9.5.js"></script>
+        <script type="text/javascript" src="../assets/data/BallsInBox/blinnphongshaders.js"></script>
+        <script type="text/javascript" src="../assets/data/BallsInBox/graphics.js"></script>
+        <script type="text/javascript" src="../assets/data/BallsInBox/Ball.js"></script>
+        <script type="text/javascript" src="../assets/data/BallsInBox/Box.js"></script>
+        <script type="text/javascript" src="../assets/data/BallsInBox/Simulation.js"></script>
+        <script type="text/javascript" src="../assets/data/BallsInBox/main.js"></script>
     </main>
     <footer>
         <p data-i18n="credits"></p>

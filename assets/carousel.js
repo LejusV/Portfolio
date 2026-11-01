@@ -105,6 +105,10 @@ async function loadCarouselMedia(carouselId, projectPath) {
             video.muted = true;
             video.setAttribute("poster", `${projectPath}/${media.poster || ""}`);
             slide.appendChild(video);
+        } else if (media.type === "html") {
+            const div = document.createElement("div");
+            div.innerHTML = `${media.src}`;
+            slide.appendChild(div);
         }
         carousel.appendChild(slide);
     });
