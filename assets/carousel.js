@@ -74,6 +74,7 @@ async function loadProjects() {
     // Charge dynamiquement les médias pour ce projet
     await loadCarouselMedia(container.id, project.mediaPath);
   }
+  startSimul();
 }
 
 // Appelle la fonction au chargement
@@ -106,16 +107,15 @@ async function loadCarouselMedia(carouselId, projectPath) {
             video.setAttribute("poster", `${projectPath}/${media.poster || ""}`);
             slide.appendChild(video);
         } else if (media.type === "html") {
+            console.log("HTML media type detected, inserting HTML content.");
             const div = document.createElement("div");
             div.innerHTML = `${media.src}`;
             slide.appendChild(div);
         }
         carousel.appendChild(slide);
     });
-
   // Réinitialise le carousel après chargement dynamique
   reinitCarousel(carouselId);
-  startSimul(); // Démarre la simulation WebGL si nécessaire
 }
 
 // Réinitialise la logique du carousel pour un conteneur donné (après chargement dynamique)
