@@ -1,3 +1,7 @@
 [
-  { "src": "<canvas id=\"webglcanvas\" style=\"border: none;\" width=\"500\" height=\"500\"></canvas>", "descKey": "desc_project8_1", "type": "html" }
+  { "file": "gray.png", "descKey": "desc_project8_1", "type": "img" },
+  { "file": "colored.png", "descKey": "desc_project8_2", "type": "img" },
+  { "file": "colored_edit_face.png", "descKey": "desc_project8_3", "type": "img" },
+  { "file": "colored_edit_vertex.png", "descKey": "desc_project8_4", "type": "img" },
+  { "file": "rail_closeup.png", "descKey": "desc_project8_5", "type": "img" }
 ]

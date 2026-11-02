@@ -53,7 +53,7 @@
   },
   {
     "id": "project-7",
-    "category": "modeling_3d",
+    "category": "anim",
     "titleKey": "project7",
     "descKey": "project7_desc",
     "mediaPath": "../assets/img/projects/7",
@@ -61,7 +61,7 @@
   },
   {
     "id": "project-8",
-    "category": "anim",
+    "category": "modeling_3d",
     "titleKey": "project8",
     "descKey": "project8_desc",
     "mediaPath": "../assets/img/projects/8",
@@ -73,6 +73,14 @@
     "titleKey": "project9",
     "descKey": "project9_desc",
     "mediaPath": "../assets/img/projects/9",
+    "mediaJson": "media.json"
+  },
+  {
+    "id": "project-10",
+    "category": "art",
+    "titleKey": "project10",
+    "descKey": "project10_desc",
+    "mediaPath": "../assets/img/projects/10",
     "mediaJson": "media.json"
   }
 ]
