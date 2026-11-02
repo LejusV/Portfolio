@@ -66,5 +66,13 @@
     "descKey": "project8_desc",
     "mediaPath": "../assets/img/projects/8",
     "mediaJson": "media.json"
+  },
+  {
+    "id": "project-9",
+    "category": "art",
+    "titleKey": "project9",
+    "descKey": "project9_desc",
+    "mediaPath": "../assets/img/projects/9",
+    "mediaJson": "media.json"
   }
 ]
