@@ -148,16 +148,16 @@ function initSingleCarousel(container) {
         // Si la slide contient une vidéo à lancer automatiquement
         const video = slide.querySelector('video');
         if (video) {
-          if (video.src.includes('portfolio_opengl.mp4') || video.src.includes('age_of_war_dl.mp4')) {
-            video.loop = true;
-            video.muted = true;
-            video.controls = false;
-            video.play().catch(()=>{});
-          } else if (video.src.includes('nebula_nomad_gameplay.mp4')) {
+          if (video.src.includes('nebula_nomad_gameplay.mp4')) {
             video.loop = false;
             video.muted = false;
             video.controls = true;
             video.pause();
+          } else {
+            video.loop = true;
+            video.muted = true;
+            video.controls = false;
+            video.play().catch(()=>{});
           }
         }
       } else if (i === (index - 1 + totalSlides) % totalSlides) {

@@ -107,6 +107,8 @@ const translations = {
     project9_desc: "My digital drawings of space created with Krita on a graphics tablet.",
     project10: "Random Drawings",
     project10_desc: "Some of my art without context.",
+    project11: "Dinosaur Animations",
+    project11_desc: "Some dinosaur animations I created with Blockbench for a Minecraft mod. The textures are by @lawilnet.",
     desc_project1_1: '360-degrees view of a 3D scene rendered with OpenGL. We can observe how the different materials (mainly wood and metal) react to various light sources, including directional, point, and spotlight types. The blue specular highlights ont the metal parts show a "Moon" light source with blue specular color. The red-ish light from the cube shows a nice diffuse and specular reflection on the wood.',
     desc_project2_1: "Path-traced image of the first 3DCGR scene rendered that showcases the handling of triangles (Möller-Trumbore ray-triangle intersection algorithm) and sphere primitives. It allows mesh loading from OFF files. It also demonstrates basic lighting with a single light source. Here the helmet reprensents an ideal diffuse reflection, a sphere is an ideal specular reflection, and the other sphere is an ideal dielectric refraction. The model loader also creates a bounding sphere for faster intersection tests.",
     desc_project2_2: "Second path-traced image of another scene, without depth of field nor Bokehs. Here we are still using a pin-hole model for the camera, so there is no depth of field effect.",
@@ -139,6 +141,14 @@ const translations = {
     desc_project9_1: "Drawing of a black hole made with Krita",
     desc_project9_2: "Drawing of a frozen planet made with Krita",
     desc_project9_3: "Drawing of a scarred volcanic planet made with Krita",
+    desc_project11_1: "T-Rex",
+    desc_project11_2: "Raptor",
+    desc_project11_3: "Triceratops",
+    desc_project11_4: "Stegosaurus",
+    desc_project11_5: "Quetzalcoatlus",
+    desc_project11_6: "Arthropleura",
+    desc_project11_7: "Spinosaurus",
+    desc_project11_8: "Ambient, textures by @lawilnet",
     credits: '© 2026 Jules "Lejus" Vandeputte. All rights reserved.'
   },
   fr: {
@@ -242,6 +252,8 @@ const translations = {
     project9_desc: "Mes dessins de l'espace faits avec Krita sur tablette graphique.",
     project10: "Dessins aléatoires",
     project10_desc: "Quelques dessins aléatoires.",
+    project11: "Animation de dinosaures",
+    project11_desc: "Des animations de dinosaures que j'ai réalisés avec Blockbench pour un mod Minecraft. Les textures sont de @lawilnet.",
     desc_project1_1: 'Vue à 360 degrés d\'une scène 3D rendue avec OpenGL. On peut observer comment les différents matériaux (principalement le bois et le métal) réagissent aux diverses sources lumineuses, incluant des types directionnels, ponctuels et projecteurs. Les reflets spéculaires bleus sur les parties métalliques montrent une source lumineuse type "Lune" avec une couleur spéculaire bleue. La lumière rougeâtre provenant du cube montre un joli reflet diffus et spéculaire sur le bois.',
     desc_project2_1: "Première scène 3DCGR rendue à l'aide du path-tracing qui met en avant la gestion de primitives triangles (algorithme Möller-Trumbore d'intersection Triangle-Droite) et sphères, ainsi que le chargement de modèles à partir de fichiers OFF. Elle démontre également l'éclairage de base avec une source lumineuse unique. Ici, le casque représente une réflexion diffuse idéale, une sphère est une réflexion spéculaire idéale, et l'autre sphère est une réfraction diélectrique idéale. L'importation de modèles crée aussi une sphère englobante pour accélérer les tests d'intersection.",
     desc_project2_2: "Deuxième image rendue en path-tracing d'une autre scène, sans profondeur de champ ni Bokehs. Ici, nous utilisons toujours un modèle de caméra avec une lentille infiniment petite (modèle pinhole), donc il n'y a pas d'effet de profondeur de champ.",
@@ -274,6 +286,14 @@ const translations = {
     desc_project9_1: "Dessin d'un trou noir fait avec Krita",
     desc_project9_2: "Dessin d'une planète glaciale fait avec Krita",
     desc_project9_3: "Dessin d'une planète volcanique meutrie fait avec Krita",
+    desc_project11_1: "T-Rex",
+    desc_project11_2: "Raptor",
+    desc_project11_3: "Triceratops",
+    desc_project11_4: "Stegosaure",
+    desc_project11_5: "Quetzalcoatlus",
+    desc_project11_6: "Arthropleura",
+    desc_project11_7: "Spinosaures",
+    desc_project11_8: "Ambiance, textures par @lawilnet",
     credits: '© 2026 Jules "Lejus" Vandeputte. Tous droits réservés.'
   }
 };
